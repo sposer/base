@@ -1,0 +1,65 @@
+<resources>
+
+    <style name="Base.Theme.HEUE" parent="Theme.Material3.DayNight">
+        <!--基本配色-->
+        <item name="colorPrimary">#1193C2</item>
+        <item name="colorPrimaryVariant">#02719F</item>
+        <item name="colorOnPrimary">@color/soft_white</item>
+
+        <item name="colorSecondary">@color/pink_3</item>
+        <item name="colorSecondaryVariant">@color/pink_2</item>
+        <item name="colorOnSecondary">@color/soft_white</item>
+
+        <item name="android:statusBarColor">@color/blue_1</item>
+        <item name="android:navigationBarColor">@color/soft_white</item>
+    </style>
+
+    <style name="Theme.HEUE.NoActionBar" parent="Base.Theme.HEUE">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.HEUE.NoActionBar.Transparent" parent="Base.Theme.HEUE">
+        <!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--        <item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.HEUE" parent="Base.Theme.HEUE" />
+
+    <style name="Theme.HEUE.CardView" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/design_default_color_on_primary</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Theme.HEUE.Popup" parent="ThemeOverlay.Material3.Dark" />
+
+    <style name="Theme.HEUE.Tab" parent="android:Widget.Material.TabWidget">
+        <item name="tabSelectedTextColor">@color/pink_2</item>
+    </style>
+
+    <style name="Theme.HEUE.DialogActivity" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorPrimary">@color/pink_3</item>
+        <item name="colorPrimaryVariant">@color/pink_2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_2</item>
+        <item name="colorSecondaryVariant">@color/blue_1</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>

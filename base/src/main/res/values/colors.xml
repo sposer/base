@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_3">#FF6699CC</color>
+    <color name="blue_2">#FF2470B9</color>
+    <color name="blue_1">#FF113B65</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="pink_3">#FFEB7E9F</color>
+    <color name="pink_2">#FFD04C74</color>
+    <color name="pink_1">#FF821F3D</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="soft_black">#FF1C1B20</color>
+    <color name="soft_white">#FFFFFBFF</color>
+    <color name="white_background">#FFDEDEDE</color>
+    <color name="gray_text">#FF7A7A7A</color>
+    <color name="gray_navigation">#FF363636</color>
+    <color name="gray_background">#FF1A1A1A</color>
+    <color name="white_disable">#FFEFF3F8</color>
+    <color name="white_root">#FFFBFBFB</color>
+    <color name="white_no_edit">#FFFCFAF2</color>
+    <color name="tag_primary">#FF006DCC</color>
+    <color name="tag_info">#FF49AFCD</color>
+    <color name="tag_success">#FF5BB75B</color>
+    <color name="tag_warning">#FFFAA732</color>
+    <color name="tag_danger">#FFDA4F49</color>
+    <color name="tag_link">#FF0088CC</color>
+</resources>
